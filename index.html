@@ -1,310 +1,460 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="viewport" content="width=device-width, user-scalable=no" />
-    <link rel="shortcut icon" href="./images/icon-short.png" />
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="./css/all.min.css">
-    <!-- slick plugin -->
-    <link rel="stylesheet" href="./css/slick.css">
-    <link rel="stylesheet" href="./css/slick-theme.css">
-    <!-- own css -->
-    <link rel="stylesheet" href="./css/style.css">
-
-
-    <title>كاس كرك</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
-        @import url('https://fonts.googleapis.com/css2?family=Gulzar&display=swap');
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasper</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&#038;display=swap" rel="stylesheet" />
+    
 </head>
-
-
 <body>
-    <!-- Header -->
 
-    <header class="header container-fluid">
-        <div class="d-flex justify-content-between align-items-center header-container" style="margin: auto;">
-            <div class="header-left-side justify-content-between d-flex">
-                <a href="./index.html">
-                    <img src="images/kas karak logo.png" class="header-logo" height="140px" alt="logo">
-                </a>
-                <nav class="d-flex align-items-center mx-4 header-nav-container">
-                    <div class="container d-flex align-items-center">
-                        <ul class="header-nav d-flex flex-nowrap">
-                            <a href="./index.html">
-                                <li class="active">
-                                    <img src="images/Home_light -.png" width="22px">
-                                        الرئيسية
-                                </li>
-                            </a>
-                            <a href="./menu.html">
-                                <li>
-                                    <img src="images/notebook_light.png" width="22px">
-                                    قائمة الطعام
-                                </li>
-                            </a>
-                            <a href="./branches.html">
-                                <li>
-                                    <img src="images/Pin_alt_light.png" width="22px">
-                                    الفروع
-                                </li>
-                            </a>
-                            <a href="./contact.html">
-                                <li >
-                                    <img src="images/Phone_light.png" width="22px">
-                                    تواصل معنا
-                                </li>
-                            </a>
-                            <a href="./workTime.html">
-                                <li >
-                                    <img src="images/Clock_light.png" width="22px">
-                                    مواعيد العمل
-                                </li>
-                            </a>
-                            <a href="./about.html">
-                                <li>
-                                    <img src="images/info_light.png" width="22px">
-                                    من نحن
-                                </li>
-                            </a>
+    <div class="section1">
+        <div class="container">
+        <p><i id="leftArrow" class="arrow"></i></p>
+        <p><i id="rightArrow" class="arrow"></i></p>
+        <div class="header">
+            <img src="files/logo.png" height="40px" id="logo">
+            <i class="fas fa-bars toggle-menu"></i>
+            <div class="items">
+            <a class="item active" href="#home">Home</a>
+            <a class="item" href="#services">Services</a>
+            <a class="item" href="#portfolio">Portfolio</a>
+            <a class="item" href="#about">About</a>
+            <a class="item" href="#pricing">Pricing</a>
+            <a class="item" id="lastElement" href="#contact">Contact</a>
+            <i class="fas fa-search item" id="searchIcon"></i>
+        </div>
+        </div> 
+        <div class="landingSquare">
+            <h2>Hello World!</h2>
+            <h2>We Are Kasper We Make Art.</h2>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam. Accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+    </div>
+    <div class="circles">
+        <span class="circle"></span>
+        <span class="circle" id="midCircle"></span>
+        <span class="circle"></span>
+    </div>
+    </div>
 
-                        </ul>
-                    </div>
-                </nav>
+
+    <!--  Services -->
+    <div class="services">
+        <div class="container">
+        <div class="specialHeader">
+            <h2>Services</h2>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div class="servicesItems">
+            <div class="servicesItem">
+                <div class="servicesLeftContent">
+                <i class="fas fa-desktop fa-3x"></i>
+                </div>
+                <div class="servicesRightContent">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                </p>
+                </div>
             </div>
-            <div style="text-align: center;" class="contact-number">
+            <div class="servicesItem">
+                <div class="servicesLeftContent">
+                <i class="fas fa-cog fa-3x"></i>
+                </div>
+                <div class="servicesRightContent">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                </p>
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div class="servicesLeftContent">
+                <i class="fas fa-pencil-ruler fa-3x"></i>
+                </div>
+                <div class="servicesRightContent">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                </p>
+                </div>
+            </div>
+            <div class="servicesItem">
+                <div class="servicesLeftContent">
+                <i class="fas fa-camera fa-3x"></i>
+                </div>
+                <div class="servicesRightContent">
+                <h3>Vorem amet intuitive</h3>
+                <p>
+                    Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget
+                    tincidunt nibh pulvinar a. Curabitur aliquet quam.
+                </p>
+                </div>
+            </div>
+            
+    </div>
+    </div>
+    </div>
+     <div class="designAdvantages">
+        <div class="container">
+        <img src="files/mobile.png">
+        <div class="designAdvantagesBlock">
+            <h2>OUR DESIGN COMES WITH...</h2>
+            <div class="designAdvantagesSmallBlock">
+            <i class="fas fa-desktop fa-3x">
+                <p>Responsive Design</p>
+            </i>
+            <i class="fas fa-desktop fa-3x">
+                <p>Modern And Clean Design</p>
+            </i>
+            <i class="fas fa-desktop fa-3x">
+                <p>Clean Code</p>
+            </i>
+            <i class="fas fa-desktop fa-3x">
+                <p>Browser Friendly</p>
+            </i>
+        </div>
+        </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+        <div class="specialHeader">
+            <h2>Portfolio</h2>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, efvpon4et tincidunt.</p>
+        </div>
+    <div id="photofilter">
+        <div class="filter"style="background-color: #1EC7F6; color:white">All</div>
+        <div class="filter">App</div>
+        <div class="filter">Photo</div>
+        <div class="filter">Web</div>
+        <div class="filter">Print</div>
+    </div>
+</div>
+</div>
+<div id="portfolioImages">
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-01.jpg">
+        <div class="portfolioFloatingSign">
+            <div class="portfolioFloatingText1">Awesome Image</div>
+            <div class="portfolioFloatingText2">Photography</div>
+        </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-02.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-03.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-04.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-05.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-06.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-07.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+    </div>
+    <div class="portfolioImgContainer">
+    <img src="files/shuffle-08.jpg">
+    <div class="portfolioFloatingSign">
+        <div class="portfolioFloatingText1">Awesome Image</div>
+        <div class="portfolioFloatingText2">Photography</div>
+    </div>
+</div>
+<div id="moreButtonContainer">
+<a id="moreButton">More</a>
+</div>
+</div>
+<!-- Awesome Video -->
+<div id="awesomeVideo">
+    <!-- <div class="container"> -->
+    <video width="100%" height="auto" autoplay>
+        <source src="files/awesome-video.mp4" type="video/mp4">
+        Your browser does not support our video
+      </video>
+      <div id="awesomeVideoBox">
+        <h3>SUPER AWESOME VIDEO HERE</h3>
+        <p>Its All You Need</p>
+        <div class="temp">SEE MORE</div>
+      </div>
+    <!-- </div> -->
+</div>
+<div id="aboutUs">
+    <div class="container">
+    <div class="specialHeader">
+    <h2>About Us</h2>
+    <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+    </div>
+        <img src="files/about.png">
+    </div>
+</div>
+<!-- statistics -->
+<div id="statistics">
+    <div class="container">
+        <div class="stat">
+            <i class="fas fa-mug-hot"></i>
+            <div>1.236</div>
+            <p>Coffe Drinks</p>
+        </div>
+        <div class="stat">
+            <i class="fas fa-folder"></i>
+            <div>256</div>
+            <p>Completed Projects</p>
+        </div>
+        <div class="stat">
+            <i class="fas fa-envelope"></i>
+            <div>1,743</div>
+            <p>Mail Sent</p>
+        </div>
+        <div class="stat">
+            <i class="fas fa-trophy"></i>
+            <div>17</div>
+            <p>Awards Received</p>
+        </div>
+    </div>
+</div>
+<div id="ourSkills">
+    <div class="container">
+        <div id="testimonials">
+            <h3>Testimonials</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <div class="comment">
+                <img src="files/skills-01.jpg">
                 <div>
-                    <img src="images/Component.png" width="25px">
-                    <span style="font-weight: bolder;">للحجز المسبق</span>
-                </div>
-                <a href="tel:8123999950">8123999950</a>
-            </div>
-            <button class="menu-toggle" onclick="toggleSidebar()"><i class="fa-solid fa-bars"></i></button>
-        </div>
-    </header>
-
-    <!-- SideBar -->
-    
-    <div class="sidebar">
-        <div class="d-flex flex-row-reverse justify-content-between mb-3">
-            <button type="button" class="btn-close" aria-label="Close" onclick="toggleSidebar()"></button>
-        </div>
-        <div class="w-100 d-flex justify-content-center">
-            <a href="./index.html" class="logo d-flex justify-content-center align-items-center">
-                <img src="images/kas karak logo.png" height="180px" alt="logo">
-            </a>        
-        </div>
-        <ul class="mt-3">
-            <a href="./index.html" class=" test">
-            <li class="active">
-                <i class="fas fa-home"></i>
-                الرئيسية
-                </li>
-            </a>
-            <a href="./menu.html" class=" test">
-            <li>
-                <i class="fas fa-utensils"></i>
-                قائمة الطعام
-            </li>
-            </a>
-            <a href="./branches.html" class=" test">
-            <li>
-                <i class="fas fa-map-marker-alt"></i>
-                الفروع
-            </li>
-            </a>
-            <a href="./contact.html" class=" test">
-            <li>
-                <i class="fa-solid fa-mobile-screen-button"></i>
-                تواصل معنا
-            </li>
-            </a>
-            <a href="./workTime.html" class=" test">
-            <li>
-                <i class="fas fa-clock"></i>
-                مواعيد العمل
-            </li>
-            </a>
-            <a href="./about.html" class=" test">
-            <li>
-                <i class="fas fa-info-circle"></i>
-                من نحن
-            </li>
-            </a>
-        </ul>
-    </div>
-
-    <!-- Landing Page -->
-    
-    <div class="container-fluid d-flex landing-page position-relative p-0 mt-3" style="z-index:0; ">
-        <div class="landing-page-text">استمتع بطعم الفطائر المميزه</div>
-
-            <div class="image-grid">
-                <img src="images/Rectangle 4133.png" alt="Image 1">
-                <img src="images/Rectangle 412.png" alt="Image 1">
-                <img src="images/Rectangle 4135.png" alt="Image 1">
-                <img src="images/Rectangle 41.png" alt="Image 1">
-                <img src="images/Rectangle 4131.png" alt="Image 1">
-            </div>
-    </div>
-
-    <!-- products -->
-    
-    <div class="container-fluid products p-3">
-        <div class="m-5 products-container" style="text-align: center; background-color: white; padding: 40px 0;">
-            <h2 style="font-weight: bold;">منتجاتنا</h2>
-            <p class="p-2 mb-3 small-text">فطيرة بالير - شاى كرك</p>
-            <div class="products-items">
-                <div class="products-item">
-                    <img src="images/Ellipse 213.png" class="product-image" alt="Product Image">
-                    <h5 class="mt-2">فطيرة جبنة حلوم مشوي</h5>
-                    <p>10 ريال</p>
-                    <span>
-                        <i class="fa-solid fa-fire"></i>
-                        250
-                    </span>
-                </div>
-                <div class="products-item">
-                    <img src="images/Ellipse 211.png" class="product-image" alt="Product Image">
-                    <h5 class="mt-2">فطيرة بيض بدون اضافات</h5>
-                    <p>10 ريال</p>
-                    <span>
-                        <i class="fa-solid fa-fire"></i>
-                        250
-                    </span>
-                </div>
-                <div class="products-item">
-                    <img src="images/Ellipse 212.png" class="product-image" alt="Product Image" width="200px" height="200px">
-                    <h5 class="mt-2">فطيرة جبنة كيري مع زعتر</h5>
-                    <p>10 ريال</p>
-                    <span>
-                        <i class="fa-solid fa-fire"></i>
-                        250
-                    </span>
-                </div>
-                <div class="products-item">
-                    <img src="images/Ellipse 214.png" class="product-image" alt="Product Image">
-                    <h5 class="mt-2">فطيرة جبنة شيدر مع عسل</h5>
-                    <p>10 ريال</p>
-                    <span>
-                        <i class="fa-solid fa-fire"></i>
-                        250
-                    </span>
-                </div>
-                <div class="products-item">
-                    <img src="images/Ellipse 215.png" class="product-image" alt="Product Image">
-                    <h5 class="mt-2">فطيرة بيض مع جبنتين</h5>
-                    <p>12 ريال</p>
-                    <span>
-                        <i class="fa-solid fa-fire"></i>
-                        250
-                    </span>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <span>John Doe, CEO</span>
                 </div>
             </div>
-            <a href="./ourProducts.html">
-                <button class="btn btn-danger m-4 more-button">المزيد</button>
-            </a>
+            <div class="comment">
+                <img src="files/skills-02.jpg">
+                <div>
+                <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+                <span>John Doe, CEO</span>
+                </div>
+            </div>
+            <div class="circles">
+                <span class="circle"></span>
+                <span class="circle" id="midCircle"></span>
+                <span class="circle"></span>
+            </div>
+
+        </div>
+
+        <div id="skills">
+            <h3>skills</h3>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+            <div class="skillsPercentages">
+                <div class="skillPercentage">
+                    <h4>ADOBE</h4>
+                    <div class="skillProgress adobe" progress="90%">
+                    </div>
+                </div>
+                <div class="skillPercentage" >
+                    <h4>HTML & CSS</h4>
+                    <div class="skillProgress" progress="80%">
+                    </div>
+                </div>
+                <div class="skillPercentage">
+                    <h4>JAVASCRIPT</h4>
+                    <div class="skillProgress js" progress="85%">
+                    </div>
+                </div>
+                <div class="skillPercentage">
+                    <h4>PHP</h4>
+                    <div class="skillProgress php" progress="80%">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    
-    
-    <!-- Section -->
-
-    <div class="container-fluid section p-2 d-flex flex-column align-items-center m-0">
-            <h2 class="p-3" style="width: 350px;">لدينا شاى الكرك و الفطائر المحشوة اللذيذة</h2>
-            <div class="position-relative section-images" style="height:180px;">
-                <img src="images/Rectangle 1.png" width="250px" height="250px">
-                <img src="images/Rectangle 3.png" width="250px" height="250px">
-                <img src="images/Rectangle 2.png" width="250px" height="250px">
+</div>
+<div id="quote">
+    <div class="container">
+        <q>accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</q>
+        <span>John Doe</span>
+    </div>
+</div>
+<div id="pricing">
+    <div class="container">
+        <div class="specialHeader">
+            <h2>Pricing</h2>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
             </div>
+            <div id="pricingPlans">
+                <div class="pricingPlan">
+                    <div class="pricingPlanHead">
+                    <h3>Basic</h3>
+                    <span>19</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Feature No 2</li>
+                        <li style="border:transparent;">Feature</li>
+                    </ul>
+                    <div class="buyNow">
+                    <a href="#"><button src="www.google.com">Buy Now</button></a>
+                    </div>
+                </div>
+                <div class="pricingPlan">
+                    <div class="pricingPlanHead">
+                    <h3>PREMIUM</h3>
+                    <span>30</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Feature No 2</li>
+                        <li style="border:transparent;">Feature</li>
+                    </ul>
+                    <div class="buyNow">
+                    <a href="#"><button src="www.google.com">Buy Now</button></a>
+                    </div>
+                </div>
+                <div class="pricingPlan">
+                    <div class="pricingPlanHead">
+                    <h3>PRO</h3>
+                    <span>49</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Feature No 2</li>
+                        <li style="border:transparent;">Feature</li>
+                    </ul>
+                    <div class="buyNow">
+                    <a href="#"><button src="www.google.com">Buy Now</button></a>
+                    </div>
+                </div>
+                <div class="pricingPlan">
+                    <div class="pricingPlanHead">
+                    <h3>PLATINUM</h3>
+                    <span>79</span>
+                    </div>
+                    <ul>
+                        <li>Feature No 1</li>
+                        <li>Extra Feature</li>
+                        <li>Feature No 2</li>
+                        <li style="border:transparent;">Feature</li>
+                    </ul>
+                    <div class="buyNow">
+                    <a href="#"><button src="www.google.com">Buy Now</button></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div id="specialContactUs">
+                <p>Contact us if you have special request</p>
+                <button>Contact Us</button>
+            </div>
+    </div>
+</div>
+<div id="subscribtion">
+    <div class="container">
+        <form>
+            <i class="far fa-envelope fa-lg"></i>
+            <input type="email" name="email" placeholder="Your Email">
+            <button>SUBSCRIBE</button>
+        </form>
+        <div>
+        <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blan dit aliquet elit, eget tincidunt.</p>
+        </div>
+    </div>
+</div>
+<div id="contactUs">
+    <div class="container">
+        <div class="specialHeader">
+            <h2>Contact Us</h2>
+            <p>Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Mauris blandit aliquet elit, eget tincidunt.</p>
+        </div>
+        <div id="contactUsArea">
+        <form>
+            <input type="text" placeholder="Your Name" name="name">
+            <input type="email" placeholder="Your Email" name="email">
+            <textarea type="text" placeholder="Your Message" name="message"></textarea>
             <div>
-                <h2 class="p-2 partners-heading">تطبيقات التوصيل</h2>
-                <p class="p-1 small-text">نوصل لك أيمنا كنت مع شركائنا الموثوقين</p>
-
-            </div>
-    </div>
-    <div class="fluid-container d-flex justify-content-center carousel-main-container" style="overflow: hidden;">
-    <div class="carousel-container">
-        <div class="arrow arrow-left" onclick="prevImage()">
-            <img src="images/Icon 2.png">
+            <input type="submit" value="SEND MESSAGE" id="contactUsButton">
+            </div>  
+        </form>
+        <div id="addressArea">
+            <h4>GET IN TOUCH</h4>
+            <span>+00 123.456.789</span>
+            <span>+00 123.456.789</span>
+            <h4>WHERE WE ARE</h4>
+            <address>
+                Awesome Address 17
+                <br>
+                New York, NYC
+                <br>
+                123-4567-890
+                <br>
+                USA
+            </address>
         </div>
-        <div class="carousel">
-            <img src="images/jahez.png" alt="Image 1" class="layer-1">
-            <img src="images/مرسول.png" alt="Image 2" class="layer-2-left">
-            <img src="images/تو يو.png" alt="Image 3" class="layer-2-right">
-            <img src="images/شفز.png" alt="Image 4" class="layer-3-left">
-            <img src="images/شقرد.png" alt="Image 5" class="layer-4-right">
-            <img src="images/hunger.png" alt="Image 5" class="layer-3-right">
-        </div>
-        
-        <div class="arrow arrow-right" onclick="nextImage()">
-            <img src="images/Icon.png">
         </div>
     </div>
-    </div>
-
-        <!-- Footer -->
-         
-        <footer>
-        <div class="container d-flex justify-content-between position-relative p-3 flex-wrap footer">
-            <div class="d-flex align-items-end footer-right">
-            <a href="privacy">
-                <span class="footer-policy">سياسة الخصوصية </span>
-            </a>
-            <a href="terms">
-                <span>شروط الاستخدام</span>
-            </a>
-            </div>
-            <div class="d-flex flex-column footer-center align-items-center justify-content-start">
-                <a href="./index.html" class="logo d-flex justify-content-center align-items-center">
-                    <img src="images/white bg kas karak logo.jpg" height="100px" alt="logo">
-                </a>
-                <span>جميع الحقوق محفوظة لموقع كاس كرك 2024</span>
-            </div>
-            <div class="d-flex align-items-center flex-column footer-left justify-content-end">
-                <div class="footer-icons mb-4">
-                    <a href="">
-                        <img src="images/فيس بوك.png" width="18px">
-                    </a>
-                    <a href="">
-                        <img src="images/تويتر.png" width="25px">
-                    </a>
-                    <a href="">
-                        <img src="images/انستجرام.png" width="25px">
-                    </a>
-                    <a href="">
-                        <img src="images/تيك توك.png" width="25px">
-                    </a>
-                    <a href="">
-                        <img src="images/سناب شات.png" width="25px">
-                    </a>
-                </div>
-                <a href="" class="d-flex flex-column align-items-center">
-                    <span>
-                    <img src="images/لوكيشن.png" width="30px">
-                    فرع كاس كرك
-                    </span>
-                    <span class="footer-address">العنوان: جدة شارع الأربعين</span>
-                </a>
-            </div>
-
+</div>
+<footer>
+    <div class="container">
+        <img src="files/logo.png" width="120px">
+        <h4>WE ARE SOCIAL</h4>
+        <div id="footerIcons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fas fa-home"></i>
+            <i class="fab fa-linkedin"></i>
         </div>
-        </footer>
-        
-    <!-- Back to Top Button -->
-    <!-- <button class="back-to-top" id="backToTopBtn"></button> -->
-
-    <script src="js/script.js"></script>
-    <script src="js/bootstrap.bundle.min.js"></script>
-        
-</body>
-
+        <p id="copyRight">
+            © 2021 
+            <span>Kasper</span>
+            All Rights Reserved
+        </p>
+    </div>
+</footer>
+    <!-- <script>
+        function openNavBar() {
+            const x = document.querySelector(".items");
+            x.style.display = 'flex';
+            x.style.flexDirection = 'column';
+            console.log("I was clicked");
+        }
+    </script> -->
+    </body>
 </html>
